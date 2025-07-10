@@ -2,14 +2,19 @@
 name = "ipagent"
 version = "0.1.0"
 description = "FastAPI dependency: get client IP, device, browser, and geo data from ipapi.co"
-authors = [{ name = "Musharraf Ibragimov" }]
+authors = [{name="Musharraf Ibragimov"}]
 license = "MIT"
 readme = "README.md"
-dependencies = []
+dependencies = [
+  "fastapi",
+  "httpx",
+  "user-agents",
+  "pydantic"
+]
 
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 [project.urls]
-"Homepage" = "https://github.com/allncuz/ipagent.git"
-"Issues" = "https://github.com/allncuz/ipagent.git/issues"
+"Homepage" = "https://github.com/allncuz/ipagent"
+"Issues" = "https://github.com/allncuz/ipagent/issues"
