@@ -24,7 +24,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Internet :: WWW/HTTP :: HTTP Servers"
 ]
-dynamic = ["version", "requires-python"]
+dynamic = ["requires-python"]
 
 
 [project.urls]
