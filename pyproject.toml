@@ -16,9 +16,6 @@ dependencies = [
     "pydantic"
 ]
 
-[project.urls]
-"Homepage" = "https://github.com/allncuz/ipagent"
-"Issues" = "https://github.com/allncuz/ipagent/issues"
 
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -30,3 +27,6 @@ classifiers = [
 ]
 
 
+[project.urls]
+"Homepage" = "https://github.com/allncuz/ipagent"
+"Issues" = "https://github.com/allncuz/ipagent/issues"
