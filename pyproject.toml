@@ -16,7 +16,6 @@ dependencies = [
     "pydantic"
 ]
 
-
 classifiers = [
     "Programming Language :: Python :: 3",
     "Framework :: FastAPI",
@@ -25,6 +24,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Internet :: WWW/HTTP :: HTTP Servers"
 ]
+dynamic = ["version", "requires-python"]
 
 
 [project.urls]
