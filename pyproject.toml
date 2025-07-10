@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ipagent"
 version = "0.1.0"
-description = "FastAPI dependency: get client IP, device, browser, and geo data from ipapi.co"
+description = "FastAPI dependency: get client IP, device, browser, and geo data"
 authors = [{ name = "Musharraf Ibragimov" }]
 license = { text = "MIT" }
 readme = "README.md"
