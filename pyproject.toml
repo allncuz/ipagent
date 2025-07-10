@@ -1,0 +1,17 @@
+[project]
+name = "ipagent"
+version = "0.1.0"
+description = "FastAPI dependency: get client IP, device, browser, and geo data from ipapi.co"
+authors = [{name="Musharraf Ibragimov"}]
+license = "MIT"
+readme = "README.md"
+dependencies = [
+  "fastapi",
+  "httpx",
+  "user-agents",
+  "pydantic"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
