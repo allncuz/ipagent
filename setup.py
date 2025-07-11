@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ipagent",
-    version="0.1.1",
+    version="0.1.2",
     description="A tool that automatically extracts IP, device, and location information for FastAPI applications",
     author="Musharraf Ibragimov",
     author_email="meibrohimov@email.com",
