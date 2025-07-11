@@ -1,9 +1,15 @@
 from setuptools import setup, find_packages
+from pathlib import Path
+
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="ipagent",
-    version="0.1.5",
+    version="0.1.6",
     description="FastAPI dependency: get client IP device browser and geo data",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Musharraf Ibragimov",
     author_email="meibrohimov@email.com",
     url="https://github.com/allncuz/ipagent",
