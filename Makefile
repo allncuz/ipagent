@@ -2,6 +2,6 @@ test:
 	PYTHONPATH=. pytest -v
 
 ruff:
-	ruff chack
+	ruff check
 
 
