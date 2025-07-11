@@ -2,8 +2,6 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-dynamic = ["requires-python"]
-
 [project.urls]
 "Homepage" = "https://github.com/allncuz/ipagent"
 "Issues" = "https://github.com/allncuz/ipagent/issues"
