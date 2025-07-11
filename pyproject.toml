@@ -2,16 +2,7 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
-
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Framework :: FastAPI",
-    "Operating System :: OS Independent",
-    "Intended Audience :: Developers",
-    "Topic :: Internet :: WWW/HTTP :: HTTP Servers"
-]
 dynamic = ["requires-python"]
-
 
 [project.urls]
 "Homepage" = "https://github.com/allncuz/ipagent"
