@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="ipagent",
-    version="0.1.3",
-    description="A tool that automatically extracts IP, device, and location information for FastAPI applications",
+    version="0.1.4",
+    description="FastAPI dependency: get client IP, device, browser, and geo data",
     author="Musharraf Ibragimov",
     author_email="meibrohimov@email.com",
     url="https://github.com/allncuz/ipagent.git",
