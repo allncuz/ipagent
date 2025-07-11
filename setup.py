@@ -2,13 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name="ipagent",
-    version="0.1.4",
-    description="FastAPI dependency: get client IP, device, browser, and geo data",
+    version="0.1.5",
+    description="FastAPI dependency: get client IP device browser and geo data",
     author="Musharraf Ibragimov",
     author_email="meibrohimov@email.com",
-    url="https://github.com/allncuz/ipagent.git",
+    url="https://github.com/allncuz/ipagent",
     packages=find_packages(),
     include_package_data=True,
+    license="MIT",
     install_requires=[
         "fastapi>=0.100",
         "httpx>=0.24.0",
@@ -20,7 +21,6 @@ setup(
         "Programming Language :: Python :: 3",
         "Framework :: FastAPI",
         "Operating System :: OS Independent",
-        "License :: OSI Approved :: MIT License",
         "Intended Audience :: Developers",
         "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
     ],
