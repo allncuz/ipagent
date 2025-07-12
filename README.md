@@ -61,21 +61,21 @@ async def user_data(user: ClientInfo = Depends(get_client_info)):
 }
 ```
 
-## 💡 Ideas for Future Improvements
+## Ideas for Future Improvements
 
 We believe `ipagent` can grow into a powerful, flexible client metadata toolkit. Here are some feature ideas and
 improvements we’re excited about — and if you’d like to contribute, we’d be happy to collaborate!
 
-## 🙌 Contribute a New Feature
+## Contribute a New Feature
 
 We’d love to see your ideas in action! Here’s how you can fork the project, add a new feature, and open a pull request:
 
-### 1. Fork the Repository
+### Fork the Repository
 
 Go to [github.com/allncuz/ipagent](https://github.com/allncuz/ipagent) and click the **Fork** button to create your own
 copy.
 
-### 2. Clone Your Fork
+### Clone Your Fork
 
 ```bash
 git clone https://github.com/your-username/ipagent.git
